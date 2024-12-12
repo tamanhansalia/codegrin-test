@@ -1,0 +1,65 @@
+{
+  "Users": [
+    {
+      "id": "2b04",
+      "name": "taman",
+      "city": "rajkot",
+      "salary": "123123",
+      "mobile": "1234567890",
+      "profilepicture": "C:\\fakepath\\silence (1).jpg"
+    },
+    {
+      "id": "ab02",
+      "name": "xyz",
+      "city": "zoo",
+      "salary": "100000",
+      "mobile": "100000",
+      "profilepicture": "C:\\fakepath\\WWDC_Wallpaper_Mac.png"
+    }
+  ],
+  "City": [
+    {
+      "id": "d112"
+    },
+    {
+      "id": "1e83",
+      "city": "delhi"
+    },
+    {
+      "id": "a18f",
+      "city": "rajkot"
+    },
+    {
+      "id": "89d7",
+      "city": "rajkot"
+    },
+    {
+      "id": "a682",
+      "city": "rajkot"
+    },
+    {
+      "id": "ec2f",
+      "city": "SHAPAR"
+    },
+    {
+      "id": "8266",
+      "city": "bombay"
+    },
+    {
+      "id": "cd08",
+      "city": "JAIPUR"
+    },
+    {
+      "id": "c0f7",
+      "city": "ABU"
+    },
+    {
+      "id": "f931",
+      "city": "test"
+    },
+    {
+      "id": "46aa",
+      "city": "zoo"
+    }
+  ]
+}
