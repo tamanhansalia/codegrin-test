@@ -106,8 +106,8 @@ const App = () => {
 
   return (
     <div>
-      <div className=" space-x-5">
-        <label className="mx-10">City Name</label>
+      <div className="space-x-5">
+        <label className="">City Name</label>
         <input
           className="border-2 border-black"
           value={cityName}
@@ -120,7 +120,7 @@ const App = () => {
       </div>
       <div>
         <form
-          className="p-4 flex flex-col justify-center space-y-4 "
+          className="p-4  justify-center space-y-4 flex flex-col "
           action=""
           onSubmit={handleSubmit}
         >
@@ -146,19 +146,7 @@ const App = () => {
               </option>
             ))}
           </select>
-          {/* {fetchcity.map((city, index) => (
-            <select key={index} name="city">
-              <option value="city">{city.city}</option>
-            </select>
-          ))} */}
-
-          {/* <label>city:</label>
-        <input
-          type="text"
-          name="city"
-          value={formdata.city}
-          onChange={handleInputChange}
-        /> */}
+          
           <label>salary:</label>
           <input
             type="number"
@@ -177,20 +165,21 @@ const App = () => {
           />
           <label>
             profile picture
+          </label>
             <input
+            className="w-fit"
               type="file"
               name="profilepicture"
               onChange={handleInputChange}
             />
-          </label>
           <button className="bg-blue-400 px-3 w-36" type="submit">
             Submit
           </button>
         </form>
         <div>
-          <table className="min-w-full border-collapse border border-gray-200">
+          <table className=" center border ">
             <thead>
-              <tr className="bg-gray-100">
+              <tr className="">
                 <th>ID</th>
                 <th>Name</th>
                 <th>City</th>
@@ -202,7 +191,7 @@ const App = () => {
             </thead>
             <tbody>
               {users.map((user, index) => (
-                <tr key={index} className="hover:bg-gray-50">
+                <tr key={index} className="">
                   <td>{user.id}</td>
                   <td>{user.name}</td>
                   <td>{user.city}</td>
@@ -212,7 +201,7 @@ const App = () => {
                   <td className=" text-center">
                     <button
                       onClick={() => handleDelete(user.id)}
-                      className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
+                      className="bg-red-500 px-3 py-1 rounded"
                     >
                       Delete
                     </button>
